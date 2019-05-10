@@ -1,3 +1,10 @@
 body {
   font-family: sans-serif;
+  margin: auto 50px;
+  background-color: deepskyblue;
+}
+
+#app {
+  background-color: aliceblue;
+  padding: 50px;
 }
