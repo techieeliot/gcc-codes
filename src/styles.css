@@ -8,3 +8,12 @@ body {
   background-color: aliceblue;
   padding: 50px;
 }
+
+.center-text {
+  text-align: center;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
