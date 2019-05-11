@@ -9,11 +9,39 @@ body {
   padding: 50px;
 }
 
+#fun-facts {
+  width: 100px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
 .center-text {
   text-align: center;
+}
+
+.contact-me {
+  padding: 0px 100px;
+}
+
+.centering {
+  width: 300 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h3,
 h4 {
   text-align: center;
+}
+
+header {
+  position: sticky;
+  overflow: auto;
+}
+
+li {
+  position: relative;
+  margin: 15px auto;
+  padding: 10px;
 }

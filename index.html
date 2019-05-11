@@ -11,6 +11,7 @@
 <body>
 	<div id="app">
 
+		<!-- HEADER WITH NAME TITLE AND PICTURE -->
 		<header class="center-text">
 			<h1><b>Eliot Sanford</b> </h1>
 			<h2>Web Developer</h2>
@@ -19,11 +20,15 @@
 
 		<br>
 		<hr>
+
+		<!-- BIRTHDAY SECTION -->
 		<section class="center-text">
 			<h3>My birthday:</h3>
 			<p>August 13th, 1987</p>
 		</section>
 		<hr>
+
+		<!-- ADDRESS AND FAVORTIE VERSE SECTION -->
 		<section class="center-text">
 			<h3>My address is:</h3>
 
@@ -34,20 +39,60 @@
 			<p></p><a href="https://my.bible.com/bible/114/GAL.2.20">Galatians 2:20</a></p>
 			<hr>
 		</section>
+
+		<!-- FUN FACTS ABOUT ME ARTICLE -->
 		<article>
 			<h3>3 Fun Facts about me:</h3>
-			<ol>
-				<li>I code every day, but I discovered the magic of code while I was a paralegal.</li>
-				<li>I am a lifelong-die-hard Mississippi State fan, but I also played for the inter-collegiate club soccer team
-					while I was
-					a journalism student.</li>
-				<li>My hobby remains to be soccer to this day, and I coach youth soccer for Brilla Juniors. I wanted to be a
-					professional athlete, when I was growing up.</li>
-			</ol>
+			<div id="fun-facts">
+				<ol>
+					<li>I code every day, but I discovered the magic of code while I was a paralegal.</li>
+					<li>I am a lifelong-die-hard Mississippi State fan, but I also played for the inter-collegiate club soccer team
+						while I was
+						a journalism student.</li>
+					<li>My hobby remains to be soccer to this day, and I coach youth soccer for Brilla Juniors. I wanted to be a
+						professional athlete, when I was growing up.</li>
+				</ol>
+			</div>
+
 		</article>
 		<hr>
+		<br>
+		<!-- CONTACT ME SECTION WITH INPUT -->
+		<section class="contact-me">
+			<h3>Contact Me</h3>
+			<div class="centering">
+				<form method="post" action="https://formspree.io/eliot587@gmail.com">
+					<label for="name">Name: </label>
+					<br>
+					<input type="text" name="name" placeholder="Name" required>
+					<br>
+					<br>
+					<label for="email">Email: </label>
+					<br>
+					<input type="text" name="email" placeholder="Email" required>
+					<br>
+					<br>
+					<label for="subject">Subject: </label>
+					<br>
+					<input type="text" name="subject" placeholder="Subject" require>
+					<br>
+					<br>
+					<label for="">Message:</label>
+					<br>
+					<textarea name="msg-box" id="msg-box" cols="30" rows="10" placeholder="Type your message here, and I will get back to you as soon."
+					 require></textarea>
+					<br>
+					<br>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
+				</form>
+			</div>
+
+		</section>
+		<hr>
+		<!-- FOOTER -->
 		<footer>
-			<h4>Created with ❤ by Eliot.</h4>
+			<h4>Created with <b>❤</b> by Eliot.</h4>
 		</footer>
 
 	</div>
