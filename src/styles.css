@@ -1,16 +1,16 @@
 body {
   font-family: sans-serif;
-  margin: auto 10em 5em;
+  margin: auto 10% 5%;
   background-color: deepskyblue;
 }
 
 #app {
   background-color: aliceblue;
-  padding: 10em;
+  padding: 10%;
 }
 
 #modules {
-  width: 25em;
+  width: 25%;
   padding-bottom: 5em;
   margin-bottom: 5em;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .contact-me {
-  padding: 0px 10em;
+  padding: 10% 10%;
 }
 
 .centering {
@@ -35,7 +35,7 @@ h4 {
 }
 
 header {
-  font-family: Cambria, sans-serif;
+  font-family: garamond, sans-serif;
   font-weight: bold;
   position: sticky;
   overflow: auto;
