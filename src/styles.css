@@ -9,8 +9,8 @@ body {
   padding: 50px;
 }
 
-#fun-facts {
-  width: 100px;
+#modules {
+  width: 250px;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -24,7 +24,6 @@ body {
 }
 
 .centering {
-  width: 300 px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +35,7 @@ h4 {
 }
 
 header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   position: sticky;
   overflow: auto;
 }
