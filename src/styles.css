@@ -29,6 +29,10 @@ body {
   justify-content: center;
 }
 
+.extra-margin {
+  margin: 0% 15%;
+}
+
 h3,
 h4 {
   text-align: center;
@@ -43,6 +47,6 @@ header {
 
 li {
   position: relative;
-  margin: 1em auto;
-  padding: 2em;
+  margin: 1% auto;
+  padding: 2%;
 }
