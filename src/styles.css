@@ -9,10 +9,43 @@ body {
   padding: 10%;
 }
 
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 60%;
+  list-style: none;
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+#nav-bar a {
+  float: left;
+  text-align: center;
+  padding: 1% 1%;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change the color of links on hover */
+#nav-bar a:hover {
+  background-color: snow;
+  color: blue;
+}
+
+/* Add a color to the active/current link */
+#nav-bar a.active {
+  background-color: yellow;
+  color: white;
+}
+
 #modules {
   width: 25%;
   padding-bottom: 5em;
   margin-bottom: 5em;
+}
+
+#year {
+  color: deepskyblue;
 }
 
 .center-text {
@@ -21,6 +54,13 @@ body {
 
 .contact-me {
   padding: 10% 10%;
+}
+input {
+  padding-top: 0.5rem;
+  border: 1px solid deepskyblue;
+}
+textarea {
+  border: 1px solid deepskyblue;
 }
 
 .centering {
@@ -45,8 +85,19 @@ header {
   overflow: auto;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 li {
+  display: inline;
   position: relative;
   margin: 1% auto;
   padding: 2%;
+}
+
+nav a {
+  text-decoration: none;
 }

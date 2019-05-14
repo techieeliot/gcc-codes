@@ -3,8 +3,11 @@
 
 <head>
 	<title>Week 1 Assignment - Eliot Sanford</title>
-	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta name="grace community church codes" content="first assignment in html">
 	<link href="src/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
 	</link>
 </head>
 
@@ -12,7 +15,7 @@
 	<div id="app">
 
 		<!-- HEADER WITH NAME TITLE AND PICTURE -->
-		<header class="center-text">
+		<header id="home" class="center-text">
 			<h1><b>Eliot Sanford</b> </h1>
 			<h2>Web Developer</h2>
 			<figure>
@@ -21,11 +24,19 @@
 			</figure>
 		</header>
 
-		<br>
+		<nav>
+			<ul id="nav-bar">
+				<li><a href="home">Home</a></li>
+				<li><a href="#bday-section">Things about Me</a></li>
+				<li><a href="#three-fun-facts-section">Three Fun Facts</a></li>
+				<li><a href="#contact-form">Contact Me</a></li>
+
+			</ul>
+		</nav>
 		<hr>
 
 		<!-- BIRTHDAY SECTION -->
-		<section class="center-text">
+		<section id="bday-section" class="center-text">
 			<h3>My birthday:</h3>
 			<p>August 13th, 1987</p>
 		</section>
@@ -44,12 +55,13 @@
 		</section>
 
 		<!-- FUN FACTS ABOUT ME ARTICLE -->
-		<article>
+		<article id="three-fun-facts-section">
 			<h3>3 Fun Facts about me:</h3>
 			<div class="centering extra-margin">
 				<ol>
 					<li>I code every day, but I discovered the magic of code while I was a paralegal.</li>
-					<li>I am a lifelong-die-hard Mississippi State fan, but I also played for the inter-collegiate club soccer team
+					<li>I am a lifelong-die-hard Mississippi State fan and alumnus, but I also played for the inter-collegiate club
+						soccer team
 						while I was
 						a journalism student.</li>
 					<li>My hobby remains to be soccer to this day, and I coach youth soccer for Brilla Juniors. I wanted to be a
@@ -59,35 +71,33 @@
 
 		</article>
 		<hr>
-		<br>
 		<!-- CONTACT ME SECTION WITH INPUT -->
-		<section class="contact-me" class="centering">
+		<section id="contact-form" class="contact-me" class="centering">
 			<h3>Contact Me</h3>
 			<div>
 				<form method="post" action="https://formspree.io/eliot587@gmail.com" class="extra-margin">
-					<label for="name">Name: </label>
-					<br>
-					<input type="text" name="name" placeholder="Name" required>
-					<br>
-					<br>
-					<label for="email">Email: </label>
-					<br>
-					<input type="text" name="email" placeholder="Email" required>
-					<br>
-					<br>
-					<label for="subject">Subject: </label>
-					<br>
+					<div>
+						<label for="name">Name: </label>
+						<input type="text" name="name" placeholder="Name" required>
+					</div>
+					<div>
+						<label for="email">Email: </label>
+						<input type="text" name="email" placeholder="Email" required>
+					</div>
+				<div>
+				<label for="subject">Subject: </label>
+
 					<input type="text" name="subject" placeholder="Subject" require>
-					<br>
-					<br>
+				</div>
+				<div>
 					<label for="">Message:</label>
-					<br>
 					<textarea name="msg-box" id="msg-box" cols="30" rows="10" placeholder="Type your message here, and I will get back to you as soon."
-					 require></textarea>
-					<br>
-					<br>
+					require></textarea>
+				</div>
+				<div>
 					<input type="submit" name="submit" value="Submit">
 					<input type="reset" name="reset" value="Reset">
+				</div>
 				</form>
 			</div>
 
@@ -95,13 +105,19 @@
 		<hr>
 		<!-- FOOTER -->
 		<footer>
-			<h4>Created with <b>❤</b> by Eliot.</h4>
+			<h4>Created with <b><span class="fa fa-heart" style="color: deepskyblue;">
+			
+			</span></b> by Eliot &copy; <span id="year"></span></h4>
+			
 		</footer>
 
 	</div>
 
 	<script src="src/index.js">
-</script>
+ </script>
+</body>
+
+</html>
 </body>
 
 </html>
