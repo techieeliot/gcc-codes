@@ -8,28 +8,53 @@ body {
   background-color: aliceblue;
   padding: 10%;
 }
+#eliot-main {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#eliot-sub {
+  display: block;
+  margin: 0.5rem 0rem 1rem 1rem;
+  color: deepskyblue;
+}
 
+/*NAVIGATION BAR SECTION */
 #nav-bar {
   position: fixed;
   top: 0;
-  width: 60%;
-  list-style: none;
-  background-color: lightgrey;
+  width: 100%;
+  color: deepskyblue;
+  top: 0;
+  max-width: 65%;
+  z-index: 2;
+  background-color: rgb(184, 177, 177);
+
+  /*background-color: */
   overflow: hidden;
+  /* position: absolute; */
+}
+#nav-bar li {
+  list-style: none;
+  margin: 0 1rem 0 1rem;
+  display: inline;
 }
 
 #nav-bar a {
-  float: left;
+  /*float: left;*/
   text-align: center;
   padding: 1% 1%;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
 }
 
 /* Change the color of links on hover */
 #nav-bar a:hover {
-  background-color: snow;
-  color: blue;
+  /*background-color: snow;*/
+  border-bottom: 0.2rem solid yellow;
 }
 
 /* Add a color to the active/current link */
@@ -37,30 +62,28 @@ body {
   background-color: yellow;
   color: white;
 }
+input #submit,
+input #reset {
+  /*line-height: 1rem;*/
+  margin: 0 auto;
+  border: 1px solid deepskyblue;
+}
 
+/* AREA FOR 3 FU  FACTS ABOUT ME*/
 #modules {
   width: 25%;
   padding-bottom: 5em;
   margin-bottom: 5em;
 }
 
+/*COLOR FOR COPYRIGHT IN FOOTER*/
 #year {
   color: deepskyblue;
 }
 
+/* CENTERING FORMATTING */
 .center-text {
   text-align: center;
-}
-
-.contact-me {
-  padding: 10% 10%;
-}
-input {
-  padding-top: 0.5rem;
-  border: 1px solid deepskyblue;
-}
-textarea {
-  border: 1px solid deepskyblue;
 }
 
 .centering {
@@ -73,6 +96,11 @@ textarea {
   margin: 0% 15%;
 }
 
+.contact-me {
+  padding: 10% 10%;
+}
+
+/* HEADER FORMATTING */
 h3,
 h4 {
   text-align: center;
@@ -85,19 +113,70 @@ header {
   overflow: auto;
 }
 
+/* LIST FORMATTING FOR 3 FUN FACTS */
 ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
-  display: inline;
+/*ol > #funFacts {
+  display: block;
   position: relative;
   margin: 1% auto;
   padding: 2%;
-}
+}*/
 
+/* NAV-BAR LINKS*/
 nav a {
   text-decoration: none;
+}
+
+/*FORM FORMATTING */
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 15rem;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 1rem;
+  text-align: right;
+}
+
+input {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid deepskyblue;
+  margin-bottom: 0.5rem;
+}
+textarea {
+  border: 1px solid deepskyblue;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 15rem;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
 }
