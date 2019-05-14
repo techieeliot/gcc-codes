@@ -93,11 +93,11 @@ input #reset {
 }
 
 .extra-margin {
-  margin: 0% 15%;
+  margin: 0;
 }
 
 .contact-me {
-  padding: 10% 10%;
+  padding: 0;
 }
 
 /* HEADER FORMATTING */
