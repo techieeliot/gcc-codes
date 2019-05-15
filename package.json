@@ -1,7 +1,7 @@
 {
   "name": "gcc-codes-wk1",
   "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
+  "description": "Eliot Sanford's First Assignment for GCC-Codes",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
