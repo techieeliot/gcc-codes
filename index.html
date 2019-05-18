@@ -14,17 +14,18 @@
 <body>
 	<div id="app">
 
-		<!-- HEADER WITH NAME TITLE AND PICTURE -->
+<!-- HEADER WITH NAME TITLE AND PICTURE -->
 		<header id="home" class="center-text">
 			<h1 id="eliot-main"><b>Eliot Sanford</b> </h1>
 			
 			<figure>
 				<img src="/assets/avatar.JPG" alt="profile picture Eliot Sanford @techieEliot" class="profile-pic">
-
+				<figcaption>my profile image</figcaption>
 			</figure>
 			<h2 id="eliot-sub">Front End Web Developer</h2>
 		</header>
 
+<!--NAVIGATION BAR-->
 		<nav>
 			<ul id="nav-bar">
 				<li><a href="home">Home</a></li>
@@ -36,76 +37,100 @@
 		</nav>
 		<hr>
 
-		<!-- BIRTHDAY SECTION -->
-		<section id="bday-section" class="center-text">
-			<h3>My birthday:</h3>
-			<p>August 13th, 1987</p>
+<!-- BIRTHDAY SECTION -->
+		<section id="bday-section center-text" class="center-text">
+			<main>
+				<article>
+					<h3>My birthday:</h3>
+					<p>August 13th, 1987</p>
+				</article>
+				<hr>
+
+<!-- ADDRESS AND FAVORTIE VERSE SECTION -->
+				<article class="">
+					<h3>My address is:</h3>
+
+					<address>110 Lake Forest Lane
+						<br>Clinton, MS</address></p>
+					<hr>
+					<h3>My favorite verse:</h3>
+						<blockquote>I have been crucified with Christ. It is no longer I who live, but <em>Christ who lives in me</em>. And the life I now live in the flesh <mark>I live by faith</mark> in the Son of God, who <b>loved me</b> and <b>gave himself for me</b></>.
+						<br>
+						<p><a href="https://my.bible.com/bible/114/GAL.2.20" target="_blank">Galatians 2:20</a>
+						</p>
+						</blockquote>
+					<hr>
+				</article>
+			
+<!-- FUN FACTS ABOUT ME ARTICLE -->
+				<article id="three-fun-facts-section">
+					<h3>3 Fun Facts about me:</h3>
+					<div class="fun">
+						<ol type="1" id="funFacts">
+							<li><p>I code every day, but I discovered the <mark>magic of code</marK> while I was a <em>paralegal</em>.</p></li>
+							<li><p>I am a lifelong-die-hard <b>Mississippi State</b> fan and alumnus, but I also played for the inter-collegiate club
+								soccer team
+								while I was
+								a journalism student.</p></li>
+							<li><p>I coach youth soccer for <b>Brilla Junior</b>, and my hobby is playing soccer.
+								</p></li>
+						</ol>
+						
+					</div>
+
+				</article>
+				<hr>
+
+<!-- VIDEO SECTION -->
+
+				<article>
+					<h3>My videos of me coding</h3>
+					<p>Check out this video of me learning <mark><em>Javascript</em></mark> with friends that I met via an e-learning platform called <a href="https://w3develops.org/">w3develops</a>.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/nRmj5ThboOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</article>
+				<hr>
+<!-- CONTACT ME SECTION WITH INPUT -->
+				<article class="contact-me" class="centering">
+					<h3>Contact Me</h3>
+					<div>
+						<form method="post" action="https://formspree.io/eliot587@gmail.com" class="extra-margin">
+							<div>
+								<label for="name">Name: </label>
+								<input type="text" name="name" placeholder="Name" required>
+							</div>
+							<div>
+								<label for="email">Email: </label>
+								<input type="text" name="email" placeholder="Email" required>
+							</div>
+							<div>
+								<label for="subject">Subject: </label>
+
+								<input type="text" name="subject" placeholder="Subject" require>
+							</div>
+							<div>
+								<label for="">Message:</label>
+								<textarea name="msg-box" id="msg-box" cols="30" rows="10" placeholder="Type your message here, and I will get back to you soon."
+								require></textarea>
+							</div>
+							<div>
+								<input class="submit" type="submit" name="submit" value="Submit">
+								<input class="reset" type="reset" name="reset" value="Reset">
+							</div>
+						</form>
+					</div>
+
+				</article>
+				<hr>
+
+
+			</main>
+
 		</section>
-		<hr>
+		
 
-		<!-- ADDRESS AND FAVORTIE VERSE SECTION -->
-		<section class="center-text">
-			<h3>My address is:</h3>
 
-			<address>110 Lake Forest Lane
-				<br>Clinton, MS</address></p>
-			<hr>
-			<h3>My favorite verse:</h3>
-			<p></p><a href="https://my.bible.com/bible/114/GAL.2.20" target="_blank">Galatians 2:20</a></p>
-			<hr>
-		</section>
 
-		<!-- FUN FACTS ABOUT ME ARTICLE -->
-		<article id="three-fun-facts-section">
-			<h3>3 Fun Facts about me:</h3>
-			<div class="fun">
-				<ol type="1" id="funFacts">
-					<li><p>I code every day, but I discovered the magic of code while I was a paralegal.</p></li>
-					<li><p>I am a lifelong-die-hard Mississippi State fan and alumnus, but I also played for the inter-collegiate club
-						soccer team
-						while I was
-						a journalism student.</p></li>
-					<li><p>I coach youth soccer for Brilla Junior, and my hobby is playing soccer.
-						</p></li>
-				</ol>
-				
-			</div>
-
-		</article>
-		<hr>
-		<!-- CONTACT ME SECTION WITH INPUT -->
-		<section class="contact-me" class="centering">
-			<h3>Contact Me</h3>
-			<div>
-				<form method="post" action="https://formspree.io/eliot587@gmail.com" class="extra-margin">
-					<div>
-						<label for="name">Name: </label>
-						<input type="text" name="name" placeholder="Name" required>
-					</div>
-					<div>
-						<label for="email">Email: </label>
-						<input type="text" name="email" placeholder="Email" required>
-					</div>
-					<div>
-						<label for="subject">Subject: </label>
-
-						<input type="text" name="subject" placeholder="Subject" require>
-					</div>
-					<div>
-						<label for="">Message:</label>
-						<textarea name="msg-box" id="msg-box" cols="30" rows="10" placeholder="Type your message here, and I will get back to you soon."
-						require></textarea>
-					</div>
-					<div>
-						<input class="submit" type="submit" name="submit" value="Submit">
-						<input class="reset" type="reset" name="reset" value="Reset">
-					</div>
-				</form>
-			</div>
-
-		</section>
-		<hr>
-		<!-- FOOTER -->
+<!-- FOOTER -->
 		<footer>
 			<h4>Created with <b><span class="fa fa-heart" style="color: deepskyblue;">
 			
