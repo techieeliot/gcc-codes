@@ -76,6 +76,12 @@ input #reset {
   margin-bottom: 5em;
 }
 
+#video {
+  width: fit-content;
+  height: fit-content;
+  border: 0;
+}
+
 /*COLOR FOR COPYRIGHT IN FOOTER*/
 #year {
   color: deepskyblue;
