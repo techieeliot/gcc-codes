@@ -86,6 +86,10 @@ input #reset {
   text-align: center;
 }
 
+.profile-pic {
+  /* width: 200px; */
+}
+
 .centering {
   display: flex;
   align-items: center;
@@ -136,7 +140,8 @@ nav a {
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
-  width: 15rem;
+
+  width: 100vhw;
   /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #ccc;
