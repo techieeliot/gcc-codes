@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-family: Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    sans-serif;
   margin: auto 10% 5%;
   background-color: deepskyblue;
 }
@@ -19,12 +20,15 @@ body {
   color: deepskyblue;
 }
 
+#home {
+  margin-top: 50px;
+}
+
 /*NAVIGATION BAR SECTION */
 #nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
-  color: deepskyblue;
   top: 0;
   max-width: 65%;
   z-index: 2;
@@ -36,7 +40,7 @@ body {
 }
 #nav-bar li {
   list-style: none;
-  margin: 0 1rem 0 1rem;
+  margin: 0 0.5rem;
   display: inline;
 }
 
@@ -110,6 +114,14 @@ input #reset {
   padding: 0;
 }
 
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+
 /* HEADER FORMATTING */
 h3,
 h4 {
@@ -140,14 +152,22 @@ ul {
 /* NAV-BAR LINKS*/
 nav a {
   text-decoration: none;
+  font-size: x-large;
+  font-family: Rubik, Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    sans-serif;
+  font-weight: bold;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 /*FORM FORMATTING */
 form {
   /* Just to center the form on the page */
-  margin: 0 auto;
+  margin: 1em auto;
 
-  width: 100vhw;
+  width: 50vw;
   /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #ccc;
@@ -157,13 +177,9 @@ form {
 form div + div {
   margin-top: 1em;
 }
-form div + div {
-  margin-top: 1em;
-}
 
 label {
   /* To make sure that all labels have the same size and are properly aligned */
-  display: inline-block;
   width: 1rem;
   text-align: right;
 }
@@ -190,4 +206,9 @@ textarea {
 
   /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
+}
+
+figcaption {
+  color: grey;
+  font-size: 0.75em;
 }
