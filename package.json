@@ -1,7 +1,7 @@
 {
-  "name": "gcc-codes-wk1",
+  "name": "gcc-codes-sprint-3",
   "version": "1.0.0",
-  "description": "Eliot Sanford's First Assignment for GCC-Codes",
+  "description": "Simple Parcel Sandbox",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
